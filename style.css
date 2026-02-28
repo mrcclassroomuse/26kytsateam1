@@ -69,6 +69,17 @@ padding:10px;
 }
 /* lots more below */
 
+.highlights img{
+  max-width:350px;
+  max-height:auto;
+}
+.resource img{
+  max-width:300px;
+  max-height:auto;
+}
+
+
+
 .navbar div{
   background:none;
 }
