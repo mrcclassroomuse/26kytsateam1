@@ -141,8 +141,6 @@ padding:10px;
   display:flex;
   justify-content: center;
   background:none;
- 
-
 }
 
 .navigation-buttons{
@@ -150,6 +148,16 @@ padding:10px;
   font-size: 20px;
   display:flex;
   justify-content:center;
+}
+/*     for the directory page     */
+.directory-page{
+  display:flex;
+}
+
+.directory-entry{
+  display:flex;
+  background-color:#1c15a4;
+  padding:2px;
 }
 
 .empty-space{
