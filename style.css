@@ -110,6 +110,9 @@ padding:10px;
 
 #resource-form{
   background-color:#1c15a4;
+}
+
+#resource-form h2, label{
   color:white;
 }
 
@@ -190,7 +193,7 @@ padding:10px;
 
 input[type = 'text']{
 border:1px solid black;
-width:auto;
+width:90%;
 border-radius:4px;
 }
 
