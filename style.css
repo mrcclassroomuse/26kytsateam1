@@ -116,6 +116,10 @@ padding:10px;
   color:white;
 }
 
+#resource-form textarea, button{
+  width:90%;
+}
+
 
 
 
