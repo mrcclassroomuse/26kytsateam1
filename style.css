@@ -159,6 +159,10 @@ padding:10px;
   background-color:#1c15a4;
   padding:2px;
 }
+.directory-entry img{
+  max-width:150px;
+  max-height:auto;
+}
 
 .empty-space{
   background: none;
