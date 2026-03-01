@@ -7,11 +7,8 @@ Video where the searchbar's code is from
 
 */
 const searchInput = document.getElementById('search');
-const clearSearch = document.getElementById('clearsearch');
-const clearForm = document.getElementById('clearform');
-clearSearch.onclick = function(){
-console.log("this doesn't clear the search bar like intended. \n it refreshes the page ");
-};
+
+
 searchInput.addEventListener('keyup', e=> {
 let currentValue = e.target.value.toLowerCase();
 console.log(currentValue);
