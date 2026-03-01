@@ -110,6 +110,8 @@ padding:10px;
 
 #resource-form{
   background-color:#1c15a4;
+  width:90%;
+  justify-content:center;
 }
 
 #resource-form h2, label{
