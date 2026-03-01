@@ -15,7 +15,7 @@ p, h1, h2, h3, h4, h5, label, li, ul, ol, input, legend, div, button {
 h1 {
   font-weight: bold;
 }
-abbr{
+abbr[title]{
   text-decoration:none;
 }
 
