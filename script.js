@@ -24,7 +24,7 @@ resourceName.forEach(resource =>{
 */
 const searchInput = document.getElementById('search');
 
-searchInput.addEventListener('keyup', e => {
+searchInput.addEventListener('input', e => {
 let currentValue = e.target.value.toLowerCase();
   console.log(currentValue);
   let resources = document.querySelectorAll('h1.entry-name');
