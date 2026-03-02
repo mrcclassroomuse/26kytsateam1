@@ -51,16 +51,16 @@
     <div> 
      <form method = 'post'  action = 'resourceform.php' class = 'add-resource'>
  <label for = 'resource-name'> Name of Resource: </label>
-<input id = 'resource-name' type = 'text'>
+<input id = 'resource-name' name = 'resource-name' type = 'text'>
 <label for = 'resource-address'> Resource Address: </label>
-<input id = 'resource-address' type = 'text'>
+<input id = 'resource-address' name = 'resource-address' type = 'text'>
 <label for ='resource-type'> Type of Resource: </label>
-<input id = 'resource-type' type = 'text'>
+<input id = 'resource-type' name = 'resource-type' type = 'text'>
 <label for = 'resource-details'> Details: </label>
-<textarea id = 'resource-details' rows = '5'></textarea>
+<textarea id = 'resource-details' name = 'resource-details' rows = '5'></textarea>
 <label for = 'email'> Email (optional): </label>
-<input id = 'email' type = 'text'>
-<button id = 'resource-submit'> Submit Resource </button>
+<input id = 'email'  name = 'email' type = 'text'>
+<input type = 'submit' value = 'Submit Resource'>
      </form>
      </div>
      </div>
