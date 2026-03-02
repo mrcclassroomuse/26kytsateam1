@@ -43,5 +43,6 @@ resourceForm.addEventListener('submit', event => {
 event.preventDefault();
   const suggestionInput = new FormData(resourceForm);
   const data = Object.fromEntries(suggestionInput);
+  console.log(data);
 }
 
