@@ -181,6 +181,10 @@ padding:10px;
   max-width:150px;
   max-height:auto;
 }
+.directory-entry h1{
+  color:white;
+  font-size:15px;
+}
 
 .empty-space{
   background: none;
