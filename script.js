@@ -6,7 +6,7 @@ Video where the searchbar's code is from
 
 
 */
-const searchInput = document.getElementById('search');
+/*const searchInput = document.getElementById('search');
 
 
 searchInput.addEventListener('keyup', e=> {
@@ -20,5 +20,13 @@ resourceName.forEach(resource =>{
     resource.parentNode.parentNode.style.display = 'none';
   }
 });
+});
+*/
+const searchInput = document.getElementById('search');
+
+searchInput.addEventListenter('keyup', e=> {
+let currentValue = e.target.value.toLowerCase();
+  console.log(currentValue);
+  
 });
 
