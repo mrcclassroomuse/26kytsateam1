@@ -37,3 +37,11 @@ if (resource.textContent.toLowerCase().includes(currentValue)){
                    });
 });
 
+const resourceFrom = document.querySelector('.add-resource');
+
+resourceForm.addEventListener('submit', event => {
+event.preventDefault();
+  const suggestionInput = new FormData(resourceForm);
+  const data = Object.fromEntries(suggestionInput);
+}
+
