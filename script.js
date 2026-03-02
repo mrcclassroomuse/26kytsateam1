@@ -28,7 +28,7 @@ searchInput.addEventListener('keyup', e => {
 let currentValue = e.target.value.toLowerCase();
   console.log(currentValue);
   let resources = document.querySelectorAll('h1.entry-name');
-  resouces.forEach(resource => {
+  resources.forEach(resource => {
 if (resource.textContent.toLowerCase().includes(currentValue)){
   resource.parentNode.style.display = 'block';
   } else {
