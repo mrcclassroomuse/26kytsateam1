@@ -30,9 +30,9 @@ let currentValue = e.target.value.toLowerCase();
   let resources = document.querySelectorAll('h1.entry-name');
   resources.forEach(resource => {
 if (resource.textContent.toLowerCase().includes(currentValue)){
-  resource.parentNode.style.display = 'block';
+  resource.parentNode.parentNode.style.display = 'block';
   } else {
-  resource.parentNode.style.display = 'none';
+  resource.parentNode.parentNode.style.display = 'none';
   }
                    });
 });
