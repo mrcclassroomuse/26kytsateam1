@@ -203,6 +203,22 @@
         
    
     <!-------------End of document------------------------>
-        <script src = 'script.js'></script>
+   <script>
+            //This should work now
+            const searchInput = document.getElementById('search');
+
+searchInput.addEventListener('input', e => {
+let currentValue = e.target.value.toLowerCase();
+  console.log(currentValue);
+  let resources = document.querySelectorAll('h1.entry-name');
+  resources.forEach(resource => {
+if (resource.textContent.toLowerCase().includes(currentValue)){
+  resource.parentNode.parentNode.style.display = 'block';
+  } else {
+  resource.parentNode.parentNode.style.display = 'none';
+  }
+                   });
+});
+          </script>
 </body>
 </html>
