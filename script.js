@@ -38,6 +38,7 @@ event.preventDefault();
       "Content-Type": "application/json"
     },
     body: JSON.stringify(data);
+    console.log('The data submitted to the form should show up here');
   });
 });
 
