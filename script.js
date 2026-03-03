@@ -34,6 +34,6 @@ event.preventDefault();
 
   
   });
-});
+
   console.log('The data submitted to the form should show up here');
 
