@@ -31,5 +31,13 @@ event.preventDefault();
   const suggestionInput = new FormData(resourceForm);
   const data = Object.fromEntries(suggestionInput);
   console.log(data);
+
+  fetch('https://reqres.in/api/reqres_d122035f256f463d87d2ac2a707df8ea', {
+    method: 'POST', 
+    headers:{
+      "Content-Type": "application/json"
+    }
+    body: JSON.stringify(data);
+  });
 });
 
