@@ -37,8 +37,9 @@ event.preventDefault();
     headers:{
       "Content-Type": "application/json"
     },
-    body: JSON.stringify(data);
-    console.log('The data submitted to the form should show up here');
+    body: JSON.stringify(data)
+  
   });
 });
+  console.log('The data submitted to the form should show up here');
 
