@@ -32,12 +32,6 @@ event.preventDefault();
   const data = Object.fromEntries(suggestionInput);
   console.log(data);
 
-  fetch('https://reqres.in/api/users?page=2', {
-    method: 'POST', 
-    headers:{
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify(data)
   
   });
 });
