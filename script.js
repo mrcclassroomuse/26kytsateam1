@@ -32,7 +32,7 @@ event.preventDefault();
   const data = Object.fromEntries(suggestionInput);
   console.log(data);
 
-  fetch('https://reqres.in/api/reqres_d122035f256f463d87d2ac2a707df8ea', {
+  fetch('https://reqres.in/api/users?page=2', {
     method: 'POST', 
     headers:{
       "Content-Type": "application/json"
