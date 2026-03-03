@@ -22,20 +22,7 @@ resourceName.forEach(resource =>{
 });
 });
 */
-const searchInput = document.getElementById('search');
 
-searchInput.addEventListener('input', e => {
-let currentValue = e.target.value.toLowerCase();
-  console.log(currentValue);
-  let resources = document.querySelectorAll('h1.entry-name');
-  resources.forEach(resource => {
-if (resource.textContent.toLowerCase().includes(currentValue)){
-  resource.parentNode.parentNode.style.display = 'block';
-  } else {
-  resource.parentNode.parentNode.style.display = 'none';
-  }
-                   });
-});
 
 const resourceForm = document.querySelector('.add-resource');
 
