@@ -37,7 +37,7 @@ if (resource.textContent.toLowerCase().includes(currentValue)){
                    });
 });
 
-const resourceFrom = document.querySelector('.add-resource');
+const resourceForm = document.querySelector('.add-resource');
 
 resourceForm.addEventListener('submit', event => {
 event.preventDefault();
